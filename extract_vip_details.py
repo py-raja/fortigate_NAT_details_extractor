@@ -76,13 +76,12 @@ def read_credentials(file_path):
 
 # File containing IP addresses and credentials
 #input_file = "input.txt"
-#straive_networks = "straive_networks.txt"
-straive_firewalls = "straive_firewalls.txt"
+firewalls = "firewalls.txt"
 credentials_file = "credentials.txt"
 
 # Read IP addresses and credentials
 
-ip_location = ip_location(straive_firewalls)
+ip_location = ip_location(firewalls)
 username, password = read_credentials(credentials_file)
 
 # Iterate through devices and extract VLAN information
