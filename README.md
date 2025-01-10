@@ -24,7 +24,7 @@ pip install netmiko
 
 ## File Descriptions
 
-- `straive_firewalls.txt`: Contains firewall IP addresses and their locations in the format:
+- `firewalls.txt`: Contains firewall IP addresses and their locations in the format:
   ```
   <firewall_ip>:<location>
   ```
@@ -42,7 +42,7 @@ pip install netmiko
 
 ## Usage
 
-1. Ensure you have the required files (`straive_firewalls.txt` and `credentials.txt`) in the same directory as the script.
+1. Ensure you have the required files (`firewalls.txt` and `credentials.txt`) in the same directory as the script.
 2. Run the script with the command:
 
 ```bash
